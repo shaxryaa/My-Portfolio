@@ -224,48 +224,14 @@ main hr{
     padding-bottom: 80px;
 }
 
-.contact-container {
+/* .contact-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
     gap: 50px;
     padding: 20px 0;
-}
-
-.contact-form {
-    flex: 1;
-    min-width: 300px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.contact-form input,
-.contact-form textarea {
-    padding: 12px;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-family: 'Poppins', sans-serif;
-    resize: none;
-}
-
-.contact-form button {
-    padding: 12px;
-    font-size: 1rem;
-    background-color: rgb(165, 50, 18);
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    font-family: 'Poppins', sans-serif;
-}
-
-.contact-form button:hover {
-    background-color: rgb(120, 30, 10);
-}
-
+} */
 .contact-info {
     flex: 1;
     min-width: 250px;
@@ -275,5 +241,6 @@ main hr{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 15px;
 }
